@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Voice base Authentication</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <span class="icon-close"><ion-icon name="close-outline"><a href="./front.html"></a></ion-icon></span>
+    
+
+      <h1>Attendance System Using Voice Authentication</h1>
+      <div id="actionDiv">
+          <label for="action">Choose Action</label>
+          <select id="action">
+              <option value="login-attendance" class="action">Login</option>
+              <option value="register-attendance" class="action">Register</option>
+          </select>
+          <input id="username" type="text" placeholder="Enter Your Username" required />
+
+      </div>
+
+      <div id="controls">
+        <button id="recordButton">Record</button>
+        <button id="pauseButton" disabled>Pause</button>
+        <button id="stopButton" disabled>Stop</button>
+      </div>
+      <div id="formats">Hello start the recording</div>
+      <i class="fa fa-microphone" aria-hidden="true"></i>
+        <h3>Recordings</h3>
+        <ol id="recordingsList"></ol>
+
+        <button type="button" id="submitButton" value="Submit">Submit</button>
+
+        <p>
+          <h2 id="result"></h2>
+        </p>
+
+        <h4>Read this!</h4>
+        <p id="readingText"></p>
+      </div>
+    </div>
+    
+
+    <!-- inserting these scripts at the end to be able to use all the elements in the DOM -->
+  	<script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+  	<script src="../static/js/app.js"></script>
+    <script type="text/javascript">
+        loadWikiArticle()
+    </script>
+
+  </body>
+</html>

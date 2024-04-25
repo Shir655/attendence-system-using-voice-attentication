@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+    
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    min-height: 100vh;
+    background: url(./Images/1.jpg) no-repeat;
+    background-size: cover;
+}
+
+/* Footer styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact{
+    margin-top: 10px;
+    padding-right: 10px;
+}
+
+.footer-section {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff6600; 
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #ddd; 
+}
+
+.socials {
+    margin-bottom: 20px;
+}
+
+.socials h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ff6600; 
+}
+
+.socials a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff; 
+    font-size: 1.5em; 
+    transition: color 0.3s ease; 
+}
+
+/* Facebook icon */
+.socials a.fb:hover {
+    color: blue; 
+}
+
+/* Instagram icon */
+.socials a.insta:hover {
+    color: red; 
+}
+
+/* Twitter icon */
+.socials a.twitter:hover {
+    color: skyblue; 
+}
+
+/* Google icon */
+.socials a.google:hover {
+    color: #7cad69; 
+}
+
+.socials a.linkedin:hover {
+    color: lightskyblue; 
+}
+
+.socials a.github:hover {
+    color: gray; 
+}
+
+.footer-section.contact-form {
+    text-align: center; 
+}
+
+.footer-section.contact-form h2 {
+    font-size: 20px;
+    color: #ff6600; 
+}
+
+.footer-section.contact-form a {
+    color: #fff;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.footer-section.contact-form a:hover {
+    color: #ff6600; 
+}
+
+.footer-bottom {
+    background-color: white; /* Footer bottom background color */
+    color: #111; /* Text color */
+    text-align: center;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.designer {
+    font-weight: bold;
+    color: #ff6f61; /* Designer name color */
+}

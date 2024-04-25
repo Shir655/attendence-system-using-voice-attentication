@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./Images/1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container background */
+.container {
+    position: relative;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.container .icon-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45px;
+    height: 45px;
+    background: #344955;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+/* Heading style */
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Form input fields */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+/* Form input field focus */
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button style */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #344955;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #fff;
+    color: #344955
+}
